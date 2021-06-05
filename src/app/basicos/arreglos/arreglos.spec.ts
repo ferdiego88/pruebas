@@ -7,7 +7,7 @@ describe('Pruebas de Arreglos', () => {
     expect(resp.length).toBeGreaterThanOrEqual(3);
   });
 
-  it('Deben de existir Megaman y Ultron', () => {
+  xit('Deben de existir Megaman y Ultron', () => {
 
     const resp = obtenerRobots();
     expect(resp).toContain('Megaman');
